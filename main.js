@@ -16,7 +16,7 @@ let weather = {
         document.querySelector(".description").innerText = description;
         document.querySelector(".temp").innerText = temp + " °C";
         document.querySelector(".humidity").innerHTML = `<span style="color: red;">Humidity: </span> ${humidity}%`;
-        document.querySelector(".wind").innerHTML = `<span style="color: red;">Wind Speed: </span> ${speed}km/h`;
+        document.querySelector(".wind").innerHTML = `<span style="color: red;">Wind Speed: </span> ${speed} km/h`;
         document.querySelector(".weather").classList.remove("loading");
         document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "')";
     },
